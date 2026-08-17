@@ -1,0 +1,66 @@
+/* app/globals.css
+   Tailwind base, components, utilities and a few sensible defaults.
+   Two-font system: headings and body. Replace fonts as desired.
+*/
+
+/* Google Fonts import (two fonts max). Replace with your chosen fonts. */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base element defaults */
+:root {
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial;
+  --font-heading: "Playfair Display", Georgia, serif;
+  --accent: theme("colors.sea.500");
+}
+
+/* Set body fonts and sensible defaults */
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  background-color: #f8fafc;
+}
+
+/* Headings use the second font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: #08203a;
+}
+
+/* Utility: container width used in components */
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Focus outline for keyboard users */
+:focus {
+  outline: none;
+}
+
+/* Provide a visible focus style when using keyboard navigation */
+html.show-focus :focus {
+  box-shadow: 0 0 0 3px rgba(14,165,233,0.18);
+  border-radius: 6px;
+}
+
+/* Small helpers */
+.sr-only {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
