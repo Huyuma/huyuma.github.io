@@ -1,0 +1,56 @@
+[
+  {
+    "id": "d1",
+    "slug": "main-beach",
+    "title": "Main Beach",
+    "description": "Wide golden sands with shallow waters, perfect for families and sunrise walks.",
+    "image": "/images/dest-1.jpg",
+    "alt": "Main Beach at Seabreeze Bay",
+    "tags": ["beach", "sunset", "family"]
+  },
+  {
+    "id": "d2",
+    "slug": "old-lighthouse",
+    "title": "Old Lighthouse",
+    "description": "Historic lighthouse offering panoramic views over the bay and dramatic cliffs.",
+    "image": "/images/dest-2.jpg",
+    "alt": "Old Lighthouse on the cliffs",
+    "tags": ["lighthouse", "viewpoint", "history"]
+  },
+  {
+    "id": "d3",
+    "slug": "harbor-boardwalk",
+    "title": "Harbor Boardwalk",
+    "description": "A charming boardwalk lined with cafés, shops, and evening street performances.",
+    "image": "/images/dest-3.jpg",
+    "alt": "Harbor boardwalk with cafes",
+    "tags": ["harbor", "shopping", "food"]
+  },
+  {
+    "id": "d4",
+    "slug": "cliffside-trail",
+    "title": "Cliffside Trail",
+    "description": "Scenic hiking path with lookout points and seasonal wildflowers.",
+    "image": "/images/dest-4.jpg",
+    "alt": "Coastal cliff trail",
+    "tags": ["hike", "trail", "nature"]
+  },
+  {
+    "id": "d5",
+    "slug": "seabreeze-island",
+    "title": "Seabreeze Island",
+    "description": "A short boat ride away — explore hidden coves and snorkeling spots.",
+    "image": "/images/dest-5.jpg",
+    "alt": "Small boat near Seabreeze Island",
+    "tags": ["island", "boat", "snorkel"]
+  },
+  {
+    "id": "d6",
+    "slug": "fishermans-market",
+    "title": "Fisherman's Market",
+    "description": "Fresh catch daily, homemade goods, and a lively morning market atmosphere.",
+    "image": "/images/dest-6.jpg",
+    "alt": "Stalls at the Fisherman's Market",
+    "tags": ["market", "food", "local"]
+  }
+]
